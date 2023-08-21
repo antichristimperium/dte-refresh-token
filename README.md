@@ -158,4 +158,4 @@ def get_bearer_token(bearer_token_url: str, config: Dict) -> Dict:
 
 **Importante:** este 'tutorial' solo pretende mostrar una posible solución (que me ha funcionado), por esa razón no continua con la explicación de la firma del documento o la generación de la estructura DTE.
 
-No duden en contactarme a gebisys@live.com
+No dude en contactarme a: gebisys@live.com si necesita mayor información sobre el tema.
