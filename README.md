@@ -48,7 +48,7 @@ from dotenv import dotenv_values, set_key
 
 CONFIG = dotenv_values() # cargamos las variables existentes
 env_file_path = Path(".env") # obtenemos el archivo .env
-env_file_path.touch(mode=0o600, exist_ok=True) # otorgamos premisos de escritura
+env_file_path.touch(mode=0o600, exist_ok=True) # otorgamos permisos de escritura
 
 MANIFEST_URL = "https://apitest.dtes.mh.gob.sv/fesv/recepciondte" # para hacer peticiones de validaciones de DTE
 BEARER_TOKEN_URL = "https://apitest.dtes.mh.gob.sv/seguridad/auth" # para obtener el refresh token (BEARER_TOKEN)
