@@ -32,7 +32,7 @@ A continuación, voy a proponer una solución simple pero efectiva en lenguaje p
 | json | [https://docs.python.org/3/library/json.html](https://docs.python.org/3/library/json.html) | Para decodificar la respuesta en formato `json` |
 | pathlib | [https://docs.python.org/3/library/pathlib.html](https://docs.python.org/3/library/pathlib.html) | Para acceder al sistema de archivos  `windows/linux/mac`|
 
-**Para este ejemplo es necesario contar con un archivo `.env` para almacenar el `bearer token` en la variable `BEARER_TOKEN`
+**Para este ejemplo es necesario contar con un archivo `.env` para almacenar el `bearer token` en la variable `BEARER_TOKEN`**
 
 ```sh
 BEARER_TOKEN='Bearer...'
